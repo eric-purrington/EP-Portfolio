@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Vote Goat",
+        "description": "A web application that provides users with information about when, where, and how to vote in their area. It provides access their representative's contact information.",
+        "imageURL": "VoteGoat",
+        "gitURL": "https://github.com/eric-purrington/Voting-App",
+        "deployedURL": "https://vote-goat.herokuapp.com",
+        "tech": ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"]
+    }, {
+        "title": "TinyLearn",
+        "description": "A microlearning application that serves a random page from Wikipedia and allows users to save and rate that page for later learning. This app was inspired by many wasted moments in quarantine.",
+        "imageURL": "TinyLearn",
+        "gitURL": "https://github.com/eric-purrington/TinyLearn",
+        "deployedURL": "https://tinylearn.herokuapp.com/",
+        "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
+    }, {
+        "title": "Fear Setter",
+        "description": "This is a fear setting application. It allows users to add and conquer fears of a day or month and get points for doing so. It also grants the ability to dive deep into a big fear; looking at consequences and worse case scenarios. Fear Setter saves progress along the path of conquering.",
+        "imageURL": "FearSetter",
+        "gitURL": "https://github.com/eric-purrington/Project-1_Fear-Setter",
+        "deployedURL": "https://eric-purrington.github.io/Project-1_Fear-Setter",
+        "tech": ["HTML", "CSS", "JavaScript", "jQuery"]
+    }, {
+        "title": "Fitness Monitor",
+        "description": "This application allows a user to track their workouts in a week. The user can add exercises to previous workouts or start new ones. The statistics of previous workouts are portrayed on graphs.",
+        "imageURL": "FitnessMonitor",
+        "gitURL": "https://github.com/eric-purrington/Fitness-Monitor",
+        "deployedURL": "https://ep-fitness-monitor.herokuapp.com/",
+        "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
+    }, {
+        "title": "Budget Tracker",
+        "description": "A common budget tracking app that functions both online and offline. It granted me the opportunity to explore some client-side database capabilities while refining my scripting abilities.",
+        "imageURL": "BudgetTracker",
+        "gitURL": "https://github.com/eric-purrington/Budget-Tracker",
+        "deployedURL": "https://ep-budget-tracker.herokuapp.com/",
+        "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
+    }, {
+        "title": "Burger Eater",
+        "description": "This application allows a burger connoisseur to keep track of all the burgers they have and would like to devour. It allowed me to sharpen my database and handlebars skills.",
+        "imageURL": "BurgerEater",
+        "gitURL": "https://github.com/eric-purrington/Burger-Eater",
+        "deployedURL": "ep-burger-eater.herokuapp.com/",
+        "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
+    }
+]
