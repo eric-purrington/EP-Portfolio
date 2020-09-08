@@ -1,21 +1,18 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import HeroImg from "./components/HeroImg";
-import Elevator from "./components/Elevator";
+import Overview from "./components/Overview";
 import SkillSet from "./components/SkillSet";
 import Projects from "./components/Projects";
-import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="portfolio">
       <HeroImg />
-      <Elevator />
+      <Overview />
       <SkillSet />
       <Projects />
-      <About />
       <Footer />
     </div>
   )

@@ -1,0 +1,7 @@
+nav-trans {
+    background-color: transparent !important;
+}
+
+.uk-navbar-item, .uk-navbar-nav li a {
+    color: white;
+}
