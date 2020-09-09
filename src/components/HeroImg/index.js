@@ -6,10 +6,10 @@ function HeroImg() {
     return (
         <div class="hero-image">
             <Navbar />
-            {/* <div class="hero-text">
-                <h1>Space Resources</h1>
-                <p>Volatile Prospecting | Metal Extraction</p>
-            </div> */}
+            <div class="hero-text">
+                <h1>Eric Purrington</h1>
+                <h3>Full Stack Web Developer</h3>
+            </div>
         </div>
     )
 }

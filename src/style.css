@@ -1,3 +1,22 @@
+/* Scrollbar changes*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c2d42;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #21e6c1;
+}
+
 body, html, #root, .portfolio {
     height: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    scroll-behavior: smooth;
 }

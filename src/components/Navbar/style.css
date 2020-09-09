@@ -1,7 +1,43 @@
-nav-trans {
+.nav-trans {
     background-color: transparent !important;
 }
 
 .uk-navbar-item, .uk-navbar-nav li a {
     color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    z-index: 9999;
+}
+
+.fa-bars {
+    color: white !important;
+}
+
+.uk-nav li a:hover {
+    color: #21e6c1;
+}
+
+.uk-offcanvas-bar {
+    background-color: #1c2d42;
+}
+
+.contactCon {
+    color: white;
+}
+
+.contactCon h2 {
+    margin: 30px 10px;
+}
+
+.contactCon p span, .contactIcon {
+    padding: 10px;
+}
+
+.exitCanvas, .uk-offcanvas-close {
+    background-color: #1c2d42;
+    color: white;
+    border: none;
+}
+
+.uk-offcanvas-close:hover {
+    cursor: pointer;
 }
