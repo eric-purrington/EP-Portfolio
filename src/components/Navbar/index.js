@@ -26,25 +26,25 @@ function Navbar() {
 
     return (
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-            <nav class="uk-navbar-container nav-trans uk-navbar" id="navbar" uk-navbar>
-                {/* <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="#">Eric Purrington | Full Stack Web Developer</a>
+            <nav className="uk-navbar-container nav-trans uk-navbar" id="navbar" uk-navbar>
+                {/* <div className="uk-navbar-left">
+                    <a className="uk-navbar-item uk-logo" href="#">Eric Purrington | Full Stack Web Developer</a>
                 </div> */}
-                <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav uk-visible@s">
+                <div className="uk-navbar-right">
+                    <ul className="uk-navbar-nav uk-visible@s">
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
                         <li><a href="#Projects">Projects</a></li>
                         <li><a href="#About">About</a></li>
                         <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
                     </ul>
-                    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" id="hamburger"><i class="fas fa-bars fa-lg"></i></a>
+                    <a href="#" className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
                 </div>
             </nav>
             <div id="contact-canvas" uk-offcanvas="overlay: true">
-                <div class="uk-offcanvas-bar">
+                <div className="uk-offcanvas-bar">
 
-                    <button class="uk-offcanvas-close" type="button" uk-close><span class="exitCanvas" uk-icon="close"></span></button>
+                    <button className="uk-offcanvas-close" type="button" uk-close><span className="exitCanvas" uk-icon="close"></span></button>
 
                     <div className="contactCon">
                         <h2>Contact Me</h2>
@@ -57,10 +57,10 @@ function Navbar() {
 
                 </div>
             </div>
-            <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+            <div id="sidenav" uk-offcanvas="flip: true" className="uk-offcanvas">
                 <div class="uk-offcanvas-bar">
 
-                    <button class="uk-offcanvas-close" type="button" uk-close><span class="exitCanvas" uk-icon="close"></span></button>
+                    <button className="uk-offcanvas-close" type="button" uk-close><span class="exitCanvas" uk-icon="close"></span></button>
 
                     <ul class="uk-nav">
                         <li><a href="#Overview">Overview</a></li>
