@@ -26,10 +26,15 @@
 
 .contactCon h2 {
     margin: 30px 10px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .contactCon p span, .contactIcon {
     padding: 10px;
+}
+
+.contactCon p:hover, .contactCon p a:hover  {
+    color: #21e6c1;
 }
 
 .exitCanvas, .uk-offcanvas-close {

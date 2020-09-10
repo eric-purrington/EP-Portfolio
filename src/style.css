@@ -19,4 +19,6 @@ body, html, #root, .portfolio {
     height: 100%;
     font-family: 'Montserrat', sans-serif !important;
     scroll-behavior: smooth;
+    background-color: #1c2d42;
+    color: white;
 }

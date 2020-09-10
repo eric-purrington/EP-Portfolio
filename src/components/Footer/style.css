@@ -1,0 +1,9 @@
+.textHolder a i, .textHolder p {
+    color: white;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.textHolder a i:hover {
+    color: #21e6c1;
+}
