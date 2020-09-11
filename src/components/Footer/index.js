@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
-import MyMounts from "../../images/MyMounts.jpg";
+import MyMounts3 from "../../images/MyMounts3.jpg";
 
 function Footer() {
     return (
         <div>
-            <img className="mountains" src={MyMounts} alt="mybluemountains" />
+            <img className="mountains" src={MyMounts3} alt="mybluemountains" />
             <div className="uk-container uk-container-expand footer">
                 <div className="textHolder uk-text-center">
                     <a href="https://github.com/eric-purrington" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x"></i></a>

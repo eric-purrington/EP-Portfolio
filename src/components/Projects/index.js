@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
     return (
         <div className="uk-container">
-            <a name="Overview"></a>
+            <a name="Projects"></a>
         </div>
     )
 }

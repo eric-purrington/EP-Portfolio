@@ -35,7 +35,6 @@ function Navbar() {
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
                         <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#About">About</a></li>
                         <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
                     </ul>
                     <a href="#" className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
@@ -66,7 +65,6 @@ function Navbar() {
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
                         <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#About">About</a></li>
                         <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
                     </ul>
                 </div>

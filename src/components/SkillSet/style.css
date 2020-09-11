@@ -4,4 +4,14 @@
 
 .uk-card {
     border-radius: 50px;
+    margin: 30px;
+    padding: 40px 40px;
+}
+
+.uk-grid {
+    margin: 0px;
+}
+
+.skillSet {
+    margin: 100px 0px;
 }
