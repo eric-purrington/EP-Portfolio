@@ -1,0 +1,42 @@
+.projectCon {
+    margin: 100px 0px;
+    padding: 20px;
+}
+
+.projectTitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.imgSide, .descSide {
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.descSide {
+    padding-top: 50px;
+}
+
+.descSide p {
+    padding-bottom: 0px;
+}
+/* .projectURLs {
+    color: white;
+    display: inline;
+} */
+
+.projectURLs {
+    max-width: 40% !important;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    background-color: #1c2d42;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.projectURLs:hover {
+    color: #1c2d42;
+    background-color: white;
+    border-color: #1c2d42;
+}

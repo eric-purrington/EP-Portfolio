@@ -5,8 +5,10 @@ function SkillSet() {
     return (
         <div className="uk-container-expand skillSet">
             <a name="Skills"></a>
-            <div class="uk-grid-large uk-child-width-expand@m uk-grid-match" uk-grid="true">
-                <div class="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column">
+            <h1 className="uk-text-center skillTitle">Skill Set</h1>
+            <hr></hr>
+            <div className="uk-grid-large uk-child-width-expand@m uk-grid-match" uk-grid="true">
+                <div className="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column" uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
                     <h3 className="uk-card-title">Client Side</h3>
                     <ul className="uk-list uk-list-divider">
                         <li>React</li>
@@ -17,7 +19,7 @@ function SkillSet() {
                         <li>Bootstrap, UIKit</li>
                     </ul>
                 </div>
-                <div class="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column">
+                <div className="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: false">
                     <h3 className="uk-card-title">Server Side</h3>
                     <ul className="uk-list uk-list-divider">
                         <li>Node.js</li>
@@ -28,7 +30,7 @@ function SkillSet() {
                         <li>MongoDB | Mongoose</li>
                     </ul>
                 </div>
-                <div class="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column">
+                <div className="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column" uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
                     <h3 className="uk-card-title">Related</h3>
                     <ul className="uk-list uk-list-divider">
                         <li>Figma</li>

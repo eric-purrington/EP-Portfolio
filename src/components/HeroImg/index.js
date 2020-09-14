@@ -4,11 +4,12 @@ import "./style.css";
 
 function HeroImg() {
     return (
-        <div class="hero-image">
+        <div className="hero-image uk-background-fixed">
             <Navbar />
-            <div class="hero-text">
+            <div className="hero-text">
                 <h1>Eric Purrington</h1>
-                <h3>Full Stack Web Developer</h3>
+                <h2>Full Stack Web Developer</h2>
+                <h3>Making logic aesthetically pleasing.</h3>
             </div>
         </div>
     )

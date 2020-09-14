@@ -15,3 +15,13 @@
 .skillSet {
     margin: 100px 0px;
 }
+
+.skillTitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+hr {
+    width: 15%;
+    margin: 10px auto;
+}

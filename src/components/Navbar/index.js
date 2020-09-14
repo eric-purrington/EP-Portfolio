@@ -2,40 +2,16 @@ import React from "react";
 import "./style.css";
 
 function Navbar() {
-    // const [transparence, setTransparence] = useState("nav-trans");
-
-    // useEffect(() => {
-    //     handleScroll();
-    //     window.addEventListener("scroll", this.listenScrollEvent);
-    // }, []);
-
-
-    // var navbar = document.getElementById("navbar");
-
-    // var stopTransparence = document.getElementById("stopTransparence");
-
-    // var transparence = stopTransparence.offsetTop;
-
-    // function myFunction() {
-    //     if (window.pageYOffset >= transparence) {
-    //         navbar.classList.remove("nav-trans")
-    //     } else {
-    //         navbar.classList.add("nav-trans");
-    //     }
-    // }
-
     return (
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-            <nav className="uk-navbar-container nav-trans uk-navbar" id="navbar" uk-navbar>
-                {/* <div className="uk-navbar-left">
-                    <a className="uk-navbar-item uk-logo" href="#">Eric Purrington | Full Stack Web Developer</a>
-                </div> */}
+            <nav className="uk-navbar-container nav-trans uk-navbar" id="navbar" uk-navbar="true">
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav uk-visible@s">
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
                         <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
+                        <li><a href="https://docs.google.com/document/d/1p017outhH1KKHGNTE0uOz2DamEU9NH1m3uNzBDrNu_g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
                     </ul>
                     <a href="#" className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
                 </div>
@@ -43,7 +19,7 @@ function Navbar() {
             <div id="contact-canvas" uk-offcanvas="overlay: true">
                 <div className="uk-offcanvas-bar">
 
-                    <button className="uk-offcanvas-close" type="button" uk-close><span className="exitCanvas" uk-icon="close"></span></button>
+                    <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
 
                     <div className="contactCon">
                         <h2>Contact Me</h2>
@@ -57,15 +33,16 @@ function Navbar() {
                 </div>
             </div>
             <div id="sidenav" uk-offcanvas="flip: true" className="uk-offcanvas">
-                <div class="uk-offcanvas-bar">
+                <div className="uk-offcanvas-bar">
 
-                    <button className="uk-offcanvas-close" type="button" uk-close><span class="exitCanvas" uk-icon="close"></span></button>
+                    <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
 
-                    <ul class="uk-nav">
+                    <ul className="uk-nav">
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
                         <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
+                        <li><a href="https://docs.google.com/document/d/1p017outhH1KKHGNTE0uOz2DamEU9NH1m3uNzBDrNu_g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
                     </ul>
                 </div>
             </div>

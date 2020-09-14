@@ -1,9 +1,8 @@
 import React from "react";
-// import Navbar from "./components/Navbar";
 import HeroImg from "./components/HeroImg";
 import Overview from "./components/Overview";
 import SkillSet from "./components/SkillSet";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <HeroImg />
       <Overview />
       <SkillSet />
-      <Projects />
+      <Portfolio />
       <Footer />
     </div>
   )

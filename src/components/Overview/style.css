@@ -5,3 +5,12 @@
     display: block;
     margin: 100px auto;
 }
+
+.overviewTitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.overviewContainer {
+    margin: 100px auto;
+}
