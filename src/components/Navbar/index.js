@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
     const [navClass, setNavClass] = useState("");
-    const quarterDown = window.innerHeight * (.25);
+    const quarterDown = window.innerHeight * (.28);
 
     const handleScroll = () => {
         let offsetTop = window.pageYOffset;
@@ -42,7 +42,7 @@ function Navbar() {
                     <a href="#" className="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
                 </div>
             </nav>
-            <div id="contact-canvas" uk-offcanvas="overlay: true">
+            <div id="contact-canvas" className="uk-offcanvas" uk-offcanvas="overlay: true">
                 <div className="uk-offcanvas-bar">
 
                     <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
@@ -58,7 +58,7 @@ function Navbar() {
 
                 </div>
             </div>
-            <div id="sidenav" uk-offcanvas="flip: true" className="uk-offcanvas">
+            <div id="sidenav" uk-offcanvas="flip: true; overlay: true" className="uk-offcanvas">
                 <div className="uk-offcanvas-bar">
 
                     <button className="uk-offcanvas-close" type="button" uk-close="true"></button>

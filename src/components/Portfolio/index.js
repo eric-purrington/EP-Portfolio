@@ -6,7 +6,7 @@ import "./style.css";
 function Portfolio() {
     return (
         <div className="uk-container-expand portfolioCon">
-            <a name="Portfolio"></a>
+            {/* <a name="Portfolio"></a> */}
             <h1 className="uk-text-center portfolioTitle">Portfolio</h1>
             <hr></hr>
             {projects.map(project => (

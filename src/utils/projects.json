@@ -35,11 +35,11 @@
         "deployedURL": "https://ep-budget-tracker.herokuapp.com/",
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
     }, {
-        "title": "Burger Eater",
-        "description": "This application allows a burger connoisseur to keep track of all the burgers they have and would like to devour. It allowed me to sharpen my database and handlebars skills.",
-        "imageURL": "BurgerEater",
-        "gitURL": "https://github.com/eric-purrington/Burger-Eater",
-        "deployedURL": "ep-burger-eater.herokuapp.com/",
-        "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
+        "title": "Employee Directory",
+        "description": "This application allows a user to keep track of their employees. The user can sort them by last name or search to narrow their results. It currently fetches some data from a random user API, but a user can easily implement their own list of employees in a JSON file.",
+        "imageURL": "EmployeeDirectory",
+        "gitURL": "https://github.com/eric-purrington/Employee-Directory",
+        "deployedURL": "https://eric-purrington.github.io/Employee-Directory/",
+        "tech": ["HTML", "CSS", "JavaScript", "React"]
     }
 ]

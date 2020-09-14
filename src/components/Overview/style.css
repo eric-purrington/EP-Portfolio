@@ -9,8 +9,9 @@
 .overviewTitle {
     color: white;
     font-family: 'Montserrat', sans-serif !important;
+    margin-top: 100px;
 }
 
 .overviewContainer {
-    margin: 100px auto;
+    margin: 100px autopx;
 }

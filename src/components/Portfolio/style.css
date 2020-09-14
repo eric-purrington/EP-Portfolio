@@ -1,8 +1,9 @@
 .portfolioTitle {
     color: white;
     font-family: 'Montserrat', sans-serif !important;
+    margin-top: 80px;
 }
 
 .portfolioCon {
-    margin: 100px 0px 0px;
+    margin: 100px 0px;
 }

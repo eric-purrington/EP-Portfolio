@@ -4,7 +4,6 @@ import "./style.css";
 function SkillSet() {
     return (
         <div className="uk-container-expand skillSet">
-            <a name="Skills"></a>
             <h1 className="uk-text-center skillTitle">Skill Set</h1>
             <hr></hr>
             <div className="uk-grid-large uk-child-width-expand@m uk-grid-match" uk-grid="true">
@@ -42,6 +41,8 @@ function SkillSet() {
                     </ul>
                 </div>
             </div>
+            <h4 className="uk-text-center skillFoot">And learning more everyday...</h4>
+            <a name="Portfolio"></a>
         </div>
     )
 }

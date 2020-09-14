@@ -7,7 +7,7 @@ function Project(props) {
             <div className="uk-grid-large uk-child-width-expand@m uk-grid-match projectCon"  uk-grid="true">
                 <div className="uk-first-column uk-text-center imgSide">
                     <h2 className="projectTitle">{props.title}</h2>
-                    <img className="projectSS" src={require(`../../images/${props.imageURL}.gif`)} alt={props.title} />
+                    <img className="projectSS" src={require(`../../images/${props.imageURL}.png`)} alt={props.title} />
                 </div>
                 <div className="uk-first-column uk-text-center descSide">
                     <p>{props.description}</p>
