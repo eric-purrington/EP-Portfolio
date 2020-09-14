@@ -15,7 +15,7 @@
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MySQL", "Handlebars"]
     }, {
         "title": "Fear Setter",
-        "description": "This is a fear setting application. It allows users to add and conquer fears of a day or month and get points for doing so. It also grants the ability to dive deep into a big fear; looking at consequences and worse case scenarios. Fear Setter saves progress along the path of conquering.",
+        "description": "This is a fear setting application. It allows users to add and conquer fears of a day or month and get points for doing so. It also grants the ability to dive deep into a big fear; looking at consequences and worse case scenarios.",
         "imageURL": "FearSetter",
         "gitURL": "https://github.com/eric-purrington/Project-1_Fear-Setter",
         "deployedURL": "https://eric-purrington.github.io/Project-1_Fear-Setter",
@@ -36,7 +36,7 @@
         "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "MongoDB"]
     }, {
         "title": "Employee Directory",
-        "description": "This application allows a user to keep track of their employees. The user can sort them by last name or search to narrow their results. It currently fetches some data from a random user API, but a user can easily implement their own list of employees in a JSON file.",
+        "description": "This application allows a user to keep track of their employees. The user can sort them by last name or search to narrow their results. It currently fetches some data from a random user API, but a user will work with any JSON file.",
         "imageURL": "EmployeeDirectory",
         "gitURL": "https://github.com/eric-purrington/Employee-Directory",
         "deployedURL": "https://eric-purrington.github.io/Employee-Directory/",

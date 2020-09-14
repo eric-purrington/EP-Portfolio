@@ -1,38 +1,27 @@
-.projectCon {
-    margin: 100px 0px;
-    padding: 20px;
+.projectCard {
+    margin: 25px 0px 0px;
+    background-color: #1c2d42;
+    color: white;
 }
 
 .projectTitle {
-    color: white;
+    color: white !important;
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.imgSide, .descSide {
-    margin: 0px;
-    padding: 0px 20px;
-}
-
-.descSide {
-    padding-top: 50px;
-}
-
-.descSide p {
-    padding-bottom: 0px;
+.uk-inline {
+    max-width: 80% !important;
+    margin: 0px auto;
 }
 
 .projectURLs {
-    max-width: 40% !important;
-    height: 50px;
-    padding: 5px;
     color: white;
     background-color: #1c2d42;
-    margin: 40px auto;
+    margin: auto 10px;
     border-radius: 10px;
 }
 
-.projectURLs:hover {
-    color: #1c2d42;
-    background-color: white;
-    border-color: #1c2d42;
+.description, .techList {
+    max-width: 95% !important;
+    margin: 10px auto;
 }

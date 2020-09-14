@@ -6,10 +6,10 @@ import "./style.css";
 function Portfolio() {
     return (
         <div className="uk-container-expand portfolioCon">
-            {/* <a name="Portfolio"></a> */}
             <h1 className="uk-text-center portfolioTitle">Portfolio</h1>
             <hr></hr>
-            {projects.map(project => (
+            <div className="uk-grid-large uk-grid uk-child-width-1-2@l uk-grid-match" uk-grid="true">
+                {projects.map(project => (
                     <Project
                     key={project.title}
                     title={project.title}
@@ -19,6 +19,7 @@ function Portfolio() {
                     deployedURL= {project.deployedURL}
                     tech={project.tech} />
                 ))}
+            </div>
         </div>
     )
 }
