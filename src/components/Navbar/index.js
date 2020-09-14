@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
     const [navClass, setNavClass] = useState("");
-    const quarterDown = window.innerHeight * (.28);
+    const quarterDown = window.innerHeight * (.30);
 
     const handleScroll = () => {
         let offsetTop = window.pageYOffset;
