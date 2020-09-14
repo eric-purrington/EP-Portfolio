@@ -1,19 +1,45 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 
 function Navbar() {
+    const [navClass, setNavClass] = useState("");
+    const quarterDown = window.innerHeight * (.25);
+
+    const handleScroll = () => {
+        let offsetTop = window.pageYOffset;
+        if ( offsetTop > quarterDown ){
+            setNavClass("nav-not-transparent");
+        } else{
+            setNavClass("");
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+    });
+
+
     return (
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-            <nav className="uk-navbar-container nav-trans uk-navbar" id="navbar" uk-navbar="true">
-                <div className="uk-navbar-right">
-                    <ul className="uk-navbar-nav uk-visible@s">
+            <nav className={"uk-navbar-container uk-navbar nav-transparent " + (navClass)} id="navbar" uk-navbar="true">
+                {window.pageYOffset > quarterDown ? <div className="uk-navbar-left">
+                    <a className="uk-navbar-item uk-logo" href="#">Eric Purrington</a>
+                </div> : ""}
+
+                <div className="uk-navbar-center">
+                    <ul className="uk-navbar-nav uk-visible@m">
                         <li><a href="#Overview">Overview</a></li>
                         <li><a href="#Skills">Skills</a></li>
                         <li><a href="#Portfolio">Portfolio</a></li>
-                        <li><a uk-toggle="target: #contact-canvas">Contact</a></li>
                         <li><a href="https://docs.google.com/document/d/1p017outhH1KKHGNTE0uOz2DamEU9NH1m3uNzBDrNu_g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
                     </ul>
-                    <a href="#" className="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
+                </div>
+
+                <div className="uk-navbar-right">
+                    <ul className="uk-navbar-nav uk-visible@m">
+                        <li><a className="contactAnchor" uk-toggle="target: #contact-canvas">Contact</a></li>
+                    </ul>
+                    <a href="#" className="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #sidenav" id="hamburger"><i className="fas fa-bars fa-lg"></i></a>
                 </div>
             </nav>
             <div id="contact-canvas" uk-offcanvas="overlay: true">
