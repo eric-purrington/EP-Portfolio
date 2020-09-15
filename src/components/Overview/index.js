@@ -9,8 +9,7 @@ function Overview() {
             <h1 className="uk-text-center overviewTitle">About Me</h1>
             <hr></hr>
             <div className="aboutMe uk-container uk-text-center">
-                <p>Hello there! I'm Eric, a certified full-stack web developer with a propensity for perfection. I am fully and unequivocally in love with coding. I’m fascinated by the way it combines logic and efficiency with design and aesthetics. I'm constantly on the lookout for projects and challenges that will allow me to advance my skills and further my passion. I would love to make the world a better place on the way.</p>
-                <p>Outside of programming, I like nature, coffee, and music :)</p>
+                <p>Hello there! I’m Eric, a certified full-stack web developer with a propensity for perfection. I am fully and unequivocally in love with coding. I’m fascinated by the way it combines logic and efficiency with design and aesthetics. I also love the way coding can help people connect with resources and loved ones. Now more than ever, we’ve seen the powerful impact that websites and apps can have on people’s wellbeing. As a mental health advocate, I’m passionate about using my skills to help improve people’s mental and emotional wellness.</p>
             </div>
             <div className="uk-container">
                 <img className="myImg" src={NewImg} alt="Me" />

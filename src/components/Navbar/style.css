@@ -26,6 +26,7 @@
 
 .contactCon {
     color: white;
+    z-index: 99 !important;
 }
 
 .contactCon h2 {

@@ -3,7 +3,7 @@
     width: auto;
     max-height: 300px;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .overviewTitle {
@@ -12,6 +12,10 @@
     margin-top: 100px;
 }
 
+.aboutMe {
+    margin-top: 30px;
+}
+
 .overviewContainer {
-    margin: 100px autopx;
+    margin: 50px auto;
 }

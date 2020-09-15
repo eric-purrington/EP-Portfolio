@@ -3,7 +3,7 @@ import "./style.css";
 
 function Project(props) {
     return (
-        <div className="uk-card uk-text-center uk-card-default uk-card-body uk-first-column projectCard">
+        <div className="uk-card uk-text-center uk-card-default uk-card-body uk-first-column projectCard" uk-scrollspy="cls: uk-animation-scale-up; repeat: false">
             <h2 className="projectTitle">{props.title}</h2>
             <div className="uk-inline uk-transition-toggle">
                 <img className="projectSS" src={require(`../../images/${props.imageURL}.png`)} alt={props.title} />
