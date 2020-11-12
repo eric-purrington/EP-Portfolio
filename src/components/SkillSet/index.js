@@ -32,11 +32,11 @@ function SkillSet() {
                 <div className="uk-card uk-text-center uk-card-default uk-card-body uk-card-hover uk-first-column" uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
                     <h3 className="uk-card-title">Related</h3>
                     <ul className="uk-list uk-list-divider">
-                        <li>Figma</li>
+                        <li>Python</li>
                         <li>Responsive Web Design</li>
                         <li>Progressive Web Apps</li>
                         <li>Version Control</li>
-                        <li>Testing</li>
+                        <li>Figma</li>
                         <li>Authentication</li>
                     </ul>
                 </div>
